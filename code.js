@@ -33,7 +33,6 @@ function numStringConcat(list){
 console.log(numStringConcat(numList));
 
 // Problem 4
-
 function numStringMath(list){
   var numSum = 0;
   for(var i = 0; i < list.length; i++){
@@ -45,7 +44,6 @@ function numStringMath(list){
 console.log(numStringMath(numList));
 
 // Problem 5
-
 if(boolList[1] == true){
   console.log(numList[0] + numList[2]);
 } else {
@@ -65,5 +63,4 @@ function boolIterator(firstArray, secondArray){
 boolIterator(boolList, numList);
 
 // Problem 7
-
 console.log(stringList.concat(numList, boolList).reverse());
